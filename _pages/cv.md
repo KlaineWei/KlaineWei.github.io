@@ -17,7 +17,7 @@ Education
 
 Work Experience
 ======
-* **Engineer**, Jiangsu Open University, 2019 - present
+* **Engineer**, Jiangsu Open University, 2021 - present
 
 Research Interests
 ======
