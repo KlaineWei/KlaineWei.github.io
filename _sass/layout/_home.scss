@@ -83,11 +83,12 @@
 .archive__item {
   .archive__item-thumb {
     float: left;
-    width: 140px;
-    margin: 0.3rem 1rem 0.5rem 0;
+    width: 220px;
+    margin: 0.35rem 1.1rem 0.6rem 0;
     border-radius: 6px;
     overflow: hidden;
     border: 1px solid var(--global-border-color, rgba(128, 128, 128, 0.2));
+    background: #fff;
 
     img {
       display: block;
@@ -103,11 +104,11 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .archive__item .archive__item-thumb {
     float: none;
     width: 100%;
-    max-width: 260px;
+    max-width: 320px;
     margin: 0 auto 0.75rem;
   }
 }
