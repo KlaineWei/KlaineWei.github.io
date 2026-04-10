@@ -39,10 +39,6 @@ News
     <span class="news-text">Paper <em>Fine-Grained Preference Optimization with Differentiated Token Weighting for LLM-based Recommendations</em> published in <b>Knowledge-Based Systems</b>, Vol. 331.</span>
   </li>
   <li class="news-item">
-    <span class="news-date">2025-11</span>
-    <span class="news-text">Paper <em>Fine-Grained Preference Optimization with Differentiated Token Weighting for LLM-based Recommendations</em> available online in <b>Knowledge-Based Systems</b>.</span>
-  </li>
-  <li class="news-item">
     <span class="news-date">2025-09</span>
     <span class="news-text">Started Ph.D. studies in Electronic Information at <b>Nanjing University of Posts and Telecommunications</b>.</span>
   </li>
