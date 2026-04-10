@@ -24,6 +24,16 @@
           {% endif %}
           alt="">
       </div>
+    {% elsif post.header.teaser %}
+      <div class="archive__item-thumb">
+        <img src=
+          {% if post.header.teaser contains "://" %}
+            "{{ post.header.teaser }}"
+          {% else %}
+            "{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
