@@ -35,20 +35,24 @@ News
 
 <ul class="news-list">
   <li class="news-item">
-    <span class="news-date">2025-01</span>
-    <span class="news-text">Paper <em>Fine-Grained Preference Optimization with Differentiated Token Weighting for LLM-based Recommendations</em> accepted to <b>Knowledge-Based Systems</b>.</span>
+    <span class="news-date">2026-01</span>
+    <span class="news-text">Paper <em>Fine-Grained Preference Optimization with Differentiated Token Weighting for LLM-based Recommendations</em> published in <b>Knowledge-Based Systems</b>, Vol. 331.</span>
   </li>
   <li class="news-item">
-    <span class="news-date">2024-09</span>
+    <span class="news-date">2025-11</span>
+    <span class="news-text">Paper <em>Fine-Grained Preference Optimization with Differentiated Token Weighting for LLM-based Recommendations</em> available online in <b>Knowledge-Based Systems</b>.</span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2025-09</span>
     <span class="news-text">Started Ph.D. studies in Electronic Information at <b>Nanjing University of Posts and Telecommunications</b>.</span>
   </li>
   <li class="news-item">
-    <span class="news-date">2024-06</span>
-    <span class="news-text">Paper <em>M3KGR: A Momentum Contrastive Multi-Modal Knowledge Graph Learning Framework for Recommendation</em> published in <b>Information Sciences</b>.</span>
+    <span class="news-date">2024-08</span>
+    <span class="news-text">Paper <em>M3KGR: A Momentum Contrastive Multi-Modal Knowledge Graph Learning Framework for Recommendation</em> published in <b>Information Sciences</b>, Vol. 676.</span>
   </li>
   <li class="news-item">
-    <span class="news-date">2023-05</span>
-    <span class="news-text">Paper <em>MoCo4SRec: A Momentum Contrastive Learning Framework for Sequential Recommendation</em> published in <b>Expert Systems with Applications</b>.</span>
+    <span class="news-date">2023-08</span>
+    <span class="news-text">Paper <em>MoCo4SRec: A Momentum Contrastive Learning Framework for Sequential Recommendation</em> published in <b>Expert Systems with Applications</b>, Vol. 223.</span>
   </li>
 </ul>
 

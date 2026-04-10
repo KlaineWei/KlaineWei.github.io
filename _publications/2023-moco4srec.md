@@ -3,7 +3,7 @@ title: "MoCo4SRec: A Momentum Contrastive Learning Framework for Sequential Reco
 collection: publications
 category: manuscripts
 permalink: /publication/2023-moco4srec
-date: 2023-01-01
+date: 2023-08-01
 venue: 'Expert Systems with Applications'
 header:
   teaser: publications/moco4srec.svg

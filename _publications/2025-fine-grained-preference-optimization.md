@@ -3,7 +3,7 @@ title: "Fine-Grained Preference Optimization with Differentiated Token Weighting
 collection: publications
 category: manuscripts
 permalink: /publication/2025-fine-grained-preference-optimization
-date: 2025-01-01
+date: 2026-01-03
 venue: 'Knowledge-Based Systems'
 header:
   teaser: publications/fine-grained-po.svg
