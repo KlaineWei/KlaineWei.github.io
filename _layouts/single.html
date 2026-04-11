@@ -54,10 +54,8 @@ layout: default
         {% if page.collection == 'publications' %}
           <div class="pub-links">
             {% if page.paperurl %}<a class="pub-btn" href="{{ page.paperurl }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines"></i> Paper</a>{% endif %}
-            {% if page.doi %}<a class="pub-btn" href="https://doi.org/{{ page.doi }}" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i> DOI</a>{% endif %}
             {% if page.code %}<a class="pub-btn" href="{{ page.code }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>{% endif %}
             {% if page.slidesurl %}<a class="pub-btn" href="{{ page.slidesurl }}" target="_blank" rel="noopener"><i class="fa-solid fa-person-chalkboard"></i> Slides</a>{% endif %}
-            {% if page.bibtex %}<a class="pub-btn" href="#bibtex"><i class="fa-solid fa-quote-right"></i> BibTeX</a>{% endif %}
           </div>
         {% endif %}
 
