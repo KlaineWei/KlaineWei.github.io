@@ -7,10 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-I am an engineer at [Jiangsu Open University](https://www.jsou.edu.cn/) and a Ph.D. student at [Nanjing University of Posts and Telecommunications](https://www.njupt.edu.cn/).
+<div class="about-hero">
+  <h2 class="about-greeting">Hello, I'm Zihan <span class="wave">👋</span></h2>
+  <p class="about-intro">I am an engineer at <a href="https://www.jsou.edu.cn/">Jiangsu Open University</a> and a Ph.D. student at <a href="https://www.njupt.edu.cn/">Nanjing University of Posts and Telecommunications</a>. My research sits at the intersection of large language models, recommendation systems, and multi-modal learning.</p>
+  <div class="about-tags">
+    <span class="tag">LLM</span>
+    <span class="tag">Recommendation</span>
+    <span class="tag">VLA</span>
+    <span class="tag">Contrastive Learning</span>
+    <span class="tag">Knowledge Graph</span>
+  </div>
+</div>
 
-Research Interests
-======
+<h2 class="home-section-title"><i class="fa-solid fa-flask"></i> Research Interests</h2>
 
 <div class="research-grid">
   <div class="research-card">
@@ -30,8 +39,7 @@ Research Interests
   </div>
 </div>
 
-News
-======
+<h2 class="home-section-title"><i class="fa-solid fa-newspaper"></i> News</h2>
 
 <ul class="news-list">
   <li class="news-item">
@@ -52,8 +60,28 @@ News
   </li>
 </ul>
 
-Education
-======
-- **Ph.D. in Electronic Information**, Nanjing University of Posts and Telecommunications, 2025 - present
-- **M.S. in Electronic and Communication Engineering**, Southeast University, 2016 - 2019
-- **B.S. in Electronic Science and Technology**, Nanjing University of Science and Technology, 2012 - 2016
+<h2 class="home-section-title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+
+<ul class="edu-list">
+  <li class="edu-item">
+    <span class="edu-date">2025 – Present</span>
+    <div class="edu-body">
+      <div class="edu-degree">Ph.D. in Electronic Information</div>
+      <div class="edu-school">Nanjing University of Posts and Telecommunications</div>
+    </div>
+  </li>
+  <li class="edu-item">
+    <span class="edu-date">2016 – 2019</span>
+    <div class="edu-body">
+      <div class="edu-degree">M.S. in Electronic and Communication Engineering</div>
+      <div class="edu-school">Southeast University</div>
+    </div>
+  </li>
+  <li class="edu-item">
+    <span class="edu-date">2012 – 2016</span>
+    <div class="edu-body">
+      <div class="edu-degree">B.S. in Electronic Science and Technology</div>
+      <div class="edu-school">Nanjing University of Science and Technology</div>
+    </div>
+  </li>
+</ul>

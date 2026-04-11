@@ -1,3 +1,120 @@
+/* About hero */
+.about-hero {
+  margin: 0 0 2rem;
+  padding: 1.5rem 1.6rem 1.4rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(38, 152, 186, 0.08), rgba(106, 17, 203, 0.06));
+  border: 1px solid var(--global-border-color, rgba(128, 128, 128, 0.2));
+}
+
+.about-greeting {
+  margin: 0 0 0.6rem;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.3;
+
+  .wave {
+    display: inline-block;
+    transform-origin: 70% 70%;
+    animation: wave 2.2s ease-in-out 1s 3;
+  }
+}
+
+@keyframes wave {
+  0%, 60%, 100% { transform: rotate(0deg); }
+  10%, 30% { transform: rotate(14deg); }
+  20%, 40% { transform: rotate(-8deg); }
+  50% { transform: rotate(10deg); }
+}
+
+.about-intro {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--global-text-color, #494e52);
+}
+
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--global-theme-color, #2698ba);
+  background: rgba(38, 152, 186, 0.1);
+  border: 1px solid rgba(38, 152, 186, 0.25);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+/* Decorated section titles */
+.home-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 2rem 0 1rem;
+  padding-left: 0.85rem;
+  border-left: 4px solid var(--global-theme-color, #2698ba);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.3;
+
+  i {
+    color: var(--global-theme-color, #2698ba);
+    font-size: 1.15rem;
+  }
+}
+
+/* Education timeline */
+.edu-list {
+  list-style: none;
+  padding: 0 0 0 1rem;
+  margin: 1rem 0 2rem;
+  border-left: 2px solid var(--global-theme-color, #2698ba);
+}
+
+.edu-item {
+  display: flex;
+  gap: 1rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px dashed var(--global-border-color, rgba(128, 128, 128, 0.15));
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .edu-date {
+    flex-shrink: 0;
+    min-width: 7rem;
+    font-weight: 600;
+    color: var(--global-theme-color, #2698ba);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.9rem;
+    padding-top: 0.1rem;
+  }
+
+  .edu-body {
+    flex: 1;
+  }
+
+  .edu-degree {
+    font-weight: 600;
+    font-size: 0.98rem;
+    line-height: 1.4;
+  }
+
+  .edu-school {
+    font-size: 0.87rem;
+    color: var(--global-text-color-light, #6f6f6f);
+    margin-top: 0.15rem;
+  }
+}
+
 /* Research interests card grid */
 .research-grid {
   display: grid;
