@@ -90,25 +90,37 @@ redirect_from:
 <h2 class="home-section-title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
 
 <ul class="edu-list">
-  <li class="edu-item">
-    <span class="edu-date">2025 – Present</span>
+  <li class="edu-item edu-item--phd">
+    <div class="edu-icon"><i class="fa-solid fa-user-graduate"></i></div>
     <div class="edu-body">
-      <div class="edu-degree">Ph.D. in Electronic Information</div>
-      <div class="edu-school">Nanjing University of Posts and Telecommunications</div>
+      <div class="edu-top">
+        <span class="edu-level">Ph.D.</span>
+        <span class="edu-date">2025 – Present</span>
+      </div>
+      <div class="edu-degree">Electronic Information</div>
+      <div class="edu-school"><i class="fa-solid fa-building-columns"></i> Nanjing University of Posts and Telecommunications</div>
     </div>
   </li>
-  <li class="edu-item">
-    <span class="edu-date">2016 – 2019</span>
+  <li class="edu-item edu-item--ms">
+    <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
     <div class="edu-body">
-      <div class="edu-degree">M.S. in Electronic and Communication Engineering</div>
-      <div class="edu-school">Southeast University</div>
+      <div class="edu-top">
+        <span class="edu-level">M.S.</span>
+        <span class="edu-date">2016 – 2019</span>
+      </div>
+      <div class="edu-degree">Electronic and Communication Engineering</div>
+      <div class="edu-school"><i class="fa-solid fa-building-columns"></i> Southeast University</div>
     </div>
   </li>
-  <li class="edu-item">
-    <span class="edu-date">2012 – 2016</span>
+  <li class="edu-item edu-item--bs">
+    <div class="edu-icon"><i class="fa-solid fa-book-open"></i></div>
     <div class="edu-body">
-      <div class="edu-degree">B.S. in Electronic Science and Technology</div>
-      <div class="edu-school">Nanjing University of Science and Technology</div>
+      <div class="edu-top">
+        <span class="edu-level">B.S.</span>
+        <span class="edu-date">2012 – 2016</span>
+      </div>
+      <div class="edu-degree">Electronic Science and Technology</div>
+      <div class="edu-school"><i class="fa-solid fa-building-columns"></i> Nanjing University of Science and Technology</div>
     </div>
   </li>
 </ul>
