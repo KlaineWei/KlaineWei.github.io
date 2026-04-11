@@ -163,6 +163,11 @@
   }
 }
 
+.pub-bibtex-wrap {
+  position: relative;
+  margin: 0 0 1.25rem;
+}
+
 .pub-bibtex {
   background: var(--global-code-background-color, #fafafa);
   color: var(--global-code-text-color, #313436);
@@ -172,11 +177,51 @@
   font-size: 0.82rem;
   line-height: 1.5;
   border: 1px solid var(--global-border-color, rgba(128, 128, 128, 0.2));
+  margin: 0;
 
   code {
     background: transparent;
     padding: 0;
     white-space: pre;
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  }
+}
+
+.pub-bibtex-copy {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.55rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--global-text-color, #494e52);
+  background: #ffffff;
+  border: 1px solid var(--global-border-color, rgba(128, 128, 128, 0.3));
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+
+  &:hover {
+    background: var(--global-theme-color, #2698ba);
+    color: #ffffff;
+    border-color: var(--global-theme-color, #2698ba);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &.is-copied {
+    background: #2ea44f;
+    color: #ffffff;
+    border-color: #2ea44f;
+  }
+
+  i {
+    font-size: 0.88rem;
   }
 }

@@ -65,7 +65,49 @@ layout: default
 
         {% if page.collection == 'publications' and page.bibtex %}
           <h2 id="bibtex">BibTeX</h2>
-          <pre class="pub-bibtex"><code>{{ page.bibtex }}</code></pre>
+          <div class="pub-bibtex-wrap">
+            <button type="button" class="pub-bibtex-copy" data-copy-target="bibtex-code" aria-label="Copy BibTeX">
+              <i class="fa-regular fa-copy"></i><span class="pub-bibtex-copy-label">Copy</span>
+            </button>
+            <pre class="pub-bibtex"><code id="bibtex-code">{{ page.bibtex }}</code></pre>
+          </div>
+          <script>
+          (function() {
+            var btn = document.querySelector('.pub-bibtex-copy');
+            if (!btn) return;
+            btn.addEventListener('click', function() {
+              var code = document.getElementById(btn.dataset.copyTarget);
+              if (!code) return;
+              var text = code.innerText;
+              var done = function() {
+                var label = btn.querySelector('.pub-bibtex-copy-label');
+                var icon = btn.querySelector('i');
+                var prev = label.textContent;
+                var prevIcon = icon.className;
+                label.textContent = 'Copied';
+                icon.className = 'fa-solid fa-check';
+                btn.classList.add('is-copied');
+                setTimeout(function() {
+                  label.textContent = prev;
+                  icon.className = prevIcon;
+                  btn.classList.remove('is-copied');
+                }, 1600);
+              };
+              if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(done);
+              } else {
+                var ta = document.createElement('textarea');
+                ta.value = text;
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.select();
+                try { document.execCommand('copy'); done(); } catch (e) {}
+                document.body.removeChild(ta);
+              }
+            });
+          })();
+          </script>
         {% endif %}
 
         {% unless page.collection == 'publications' %}
