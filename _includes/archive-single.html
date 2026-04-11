@@ -24,19 +24,7 @@
           {% endif %}
           alt="">
       </div>
-    {% elsif post.header.teaser %}
-      <div class="archive__item-thumb">
-        <img src=
-          {% if post.header.teaser contains "://" %}
-            "{{ post.header.teaser }}"
-          {% else %}
-            "{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
     {% endif %}
-
-    {% if post.header.teaser and include.type != "grid" %}<div class="archive__item-body">{% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
@@ -99,8 +87,6 @@
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
     {% endif %}
-
-    {% if post.header.teaser and include.type != "grid" %}</div>{% endif %}
 
   </article>
 </div>
